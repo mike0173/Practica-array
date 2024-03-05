@@ -5,3 +5,6 @@ let frutas = new Array ("manzana", "pera", "banano", "piña");
 let numerito = Array.from ({ length: 5 }, (_, index) => index);
 let repetir =Array(7). fill (0);
 let texto = String.split("Se da garra");
+let array1 = [5, 10, 15];
+let array2 = [20, 25, 30];
+let combinacion = [ ...array1, ...array2];
