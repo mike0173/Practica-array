@@ -4,3 +4,4 @@ let variado = ["leon", 10, true];
 let frutas = new Array ("manzana", "pera", "banano", "piña");
 let numerito = Array.from ({ length: 5 }, (_, index) => index);
 let repetir =Array(7). fill (0);
+let texto = String.split("Se da garra");
