@@ -8,3 +8,6 @@ let texto = String.split("Se da garra");
 let array1 = [5, 10, 15];
 let array2 = [20, 25, 30];
 let combinacion = [ ...array1, ...array2];
+let cancelacion = [1, 2, 2, 3, 4, 4, 5];
+let duplicados = new set (cancelacion);
+let final = [ ...duplicados];
