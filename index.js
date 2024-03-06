@@ -29,3 +29,5 @@ let principio = [4, 5];
 principio.unshift(1, 2, 3);
 let quitarprincipio = [1, 2, 3, 4, 5];
 quitarprincipio.shift().shift();
+let posicion = [1, 2, 3, 4, 5];
+let final1 = posicion.slice();
