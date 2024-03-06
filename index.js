@@ -39,3 +39,7 @@ a.slice(3);
 a.slice(-4,-1);
 const elimina = [1, 2, 3, 4, 5];
 const finall = elimina.slice(0, 1).concat(elimina.slice(3));
+var multiples = [1,2];
+multiples.unshift(0);
+multiples.unshift(-2, -1);
+multiples.unshift([-3]);
