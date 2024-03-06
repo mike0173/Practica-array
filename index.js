@@ -11,3 +11,11 @@ let combinacion = [ ...array1, ...array2];
 let cancelacion = [1, 2, 2, 3, 4, 4, 5];
 let duplicados = new set (cancelacion);
 let final = [ ...duplicados];
+function tablas (matriz){
+    return Array.from(matriz,(a,e)=>{
+        let table = new Array(10)
+        for (let i = 0; i < 10; i++){
+            table[i] = a * (i + 1)
+        }
+    })
+}
