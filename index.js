@@ -21,3 +21,5 @@ function tablas (matriz){
 }
 let nose1 = [1, 2, 3, 4, 5];
 let longitud = nose1.length;
+let array = [1, 2, 3];
+array.push(4);
