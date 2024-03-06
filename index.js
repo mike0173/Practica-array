@@ -25,3 +25,5 @@ let array = [1, 2, 3];
 array.push(4);
 let quitar = [1, 2, 3, 4, 5];
 quitar.pop();
+let principio = [4, 5];
+principio.unshift(1, 2, 3);
