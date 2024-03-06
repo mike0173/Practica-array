@@ -27,3 +27,5 @@ let quitar = [1, 2, 3, 4, 5];
 quitar.pop();
 let principio = [4, 5];
 principio.unshift(1, 2, 3);
+let quitarprincipio = [1, 2, 3, 4, 5];
+quitarprincipio.shift().shift();
