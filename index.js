@@ -33,3 +33,7 @@ let posicion = [1, 2, 3, 4, 5];
 let final1 = posicion.slice();
 let palabritas = ["se", "da", "garra", "mano"];
 let resultado = palabritas.join("-");
+var a = ["a", "e", "i", "o", "u"];
+a.slice(1,3);
+a.slice(3);
+a.slice(-4,-1);
