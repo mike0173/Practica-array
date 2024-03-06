@@ -37,3 +37,5 @@ var a = ["a", "e", "i", "o", "u"];
 a.slice(1,3);
 a.slice(3);
 a.slice(-4,-1);
+const elimina = [1, 2, 3, 4, 5];
+const finall = elimina.slice(0, 1).concat(elimina.slice(3));
